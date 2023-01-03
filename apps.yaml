@@ -1,0 +1,9 @@
+---
+# file location: /config/appdaemon/apps/apps.yaml
+qolsys_panel:
+  module: gateway 
+  class: QolsysGateway #leave as this value
+  log_level: DEBUG
+  mqtt_namespace: mqtt #must match the namespace specified in appdaemon.yaml
+  panel_host: <ip of qolsys alarm panel>
+  panel_token: <token code from alarm panel>
