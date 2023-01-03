@@ -1,2 +1,2 @@
 # appdaemon-IQ4-demo
-Baseline files for AppDaemon and IQ4 alarm integration
+These are basic sanitized config files that were used in setting up the Home Assistant Qolsys IQ4 integration using AddDaemon.
