@@ -1,0 +1,23 @@
+---
+#file location: /config/appdaemon/appdaemon.yaml
+secrets: /config/secrets.yaml
+appdaemon:
+  latitude: <enter lat>
+  longitude: <enter long>
+  elevation: 2
+  time_zone: Europe/Amsterdam
+  plugins:
+    HASS:
+      type: hass
+    MQTT:
+        type: mqtt
+        namespace: mqtt
+        client_host: <ip of mqtt broker>
+        client_port: 1883
+        client_user: <mqtt user> #if using the Home Assistant addon this is set in the users panel. 
+        client_password: <mqtt pass>
+http:
+  url: http://<host ip of appdaemon instance>:5050 #typically ip of the Home Assistant Instance
+admin:
+api:
+hadashboard:
